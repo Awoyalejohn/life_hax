@@ -265,4 +265,70 @@
 
 }
 
+@media only screen and (min-width: 481px) {
+  header {
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  header img {
+    height: 3cm;
+    width: 3cm;
+  }
+
+  nav a {
+    font-size: 25px;
+    padding: 14px 33px;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 25px;  
+    padding: 13px 33px;
+  }
+
+  .dropdown-content {
+    min-width: 170px;
+  }
+
+  main {
+    min-height: 75%;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+  
+  label, input, textarea {
+    font-size: 25px;
+  }
+
+  iframe {
+    height: 325px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .social-media i {
+    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .copyright p {
+    font-size: 15px;
+  }
+}
+
 
