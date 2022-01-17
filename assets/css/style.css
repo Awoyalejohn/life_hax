@@ -386,4 +386,65 @@
   }
 }
 
+@media only screen and (min-width: 1025px) {
+  header {
+    padding-right: 20%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .dropdown .dropbtn {
+    padding: 13px 80px;
+  }
+
+  .welcome-section {
+    float: left; 
+    width: 50%;
+  }
+
+  .welcome{
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .about{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+
+  .about-section {
+    float: right;
+    width: 50%; 
+  }
+
+  .contact-section {
+    padding-top: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .upload-section {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .social-media i {
+    padding-bottom: 0.1%;
+    padding-top: 1%;
+  }
+
+  iframe {
+    height: 500px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .copyright p {
+    padding-top: 0.5%;
+  }
+}
 
