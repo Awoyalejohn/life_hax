@@ -103,3 +103,10 @@ nav a:hover, .dropdown:hover .dropbtn {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+main {
+  padding: 15px;
+  background-color:#005b4b;
+  min-height: 70%;
+  box-sizing: border-box;
+}
