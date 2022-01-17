@@ -503,3 +503,22 @@
     padding-top: 85%;
   }
 }
+
+@media only screen and (min-width: 2200px) {
+  body {
+    margin-left: 26%;
+    margin-right: 26%;
+  }
+
+  main {
+    min-height: 70%;
+  }
+
+  .contact-section {
+    padding-top: 70%;
+  }
+
+  iframe {
+    height: 400px;
+  }
+}
