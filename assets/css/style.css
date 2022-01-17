@@ -233,3 +233,11 @@ footer {
   font-size: 10px;
   text-align: center;
 }
+
+#upload-area1 {
+  margin-bottom: 15px;
+}
+
+#submit-button {
+  margin-top: 15px;
+}
