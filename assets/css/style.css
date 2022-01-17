@@ -9,3 +9,21 @@ body {
   height: 100%;
   background-color: #e6faff;
 }
+
+header {
+  padding: 22px;
+  text-align: center;
+  background-color: #005b4b;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header img {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  height: 2cm;
+  width: 2cm;
+}
