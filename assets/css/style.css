@@ -207,3 +207,24 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #FFFFB3;
 }
+
+footer {
+  padding: 0%;
+  background: #000000;
+  color: #ffffff;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media > li {
+  display: inline;
+}
+
+.social-media i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #ffffff;
+}
