@@ -228,3 +228,8 @@ footer {
   padding: 5%;
   color: #ffffff;
 }
+
+.copyright p {
+  font-size: 10px;
+  text-align: center;
+}
