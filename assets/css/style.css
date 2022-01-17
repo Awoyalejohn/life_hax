@@ -241,3 +241,22 @@ footer {
 #submit-button {
   margin-top: 15px;
 }
+
+article {
+  margin-top: 15px;
+}
+
+iframe {
+  height: 200px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#home_hacks{
+  margin-top: 20px;
+}
+
+#office_hacks{
+  margin-top: 20px;
+}
