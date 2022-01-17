@@ -110,3 +110,8 @@ main {
   min-height: 70%;
   box-sizing: border-box;
 }
+
+h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+}
