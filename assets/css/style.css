@@ -448,3 +448,27 @@
   }
 }
 
+@media only screen and (min-width: 1201px) {
+  header img {
+    position: absolute;
+    top: 11px;
+    left: 20%;
+  }
+
+  body {
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .contact-section {
+    padding-top: 120%;
+  }
+
+  iframe {
+    height: 300px;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
+
