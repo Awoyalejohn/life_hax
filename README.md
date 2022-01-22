@@ -100,12 +100,12 @@ The live link to the website: https://awoyalejohn.github.io/life_hax/
 
 ## Testing
 
- - __I tested that the website worked in a variety of browsers: Chrome, Firefox, and Opera.__
-- __I confirmed that this project is responsive, looks good and functions on all standard screen sizes using devtools device toolbar.__
-- __I confirm that the Navigation bar is working correctly with no broken links.__
-- __I confirm that the Header, Navigation, Welcome section, About section, Contact section, Footer section, Upload area page, and Life Hacks page are all readable and understandable.__
-- __I have confirmed that the forms on my Homepage and Upload area pages are working: they require entries in every field, will only accept an email in the email field, and the submit button works.  And files can be selected for upload on the Upload page.__
-- __I have confirmed that the video links to youtube are working correctly: it can pause, play, and mute.__
+- I tested that the website worked in a variety of browsers: Chrome, Firefox, and Opera.
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using devtools device toolbar.
+- I confirm that the Navigation bar is working correctly with no broken links.
+- I confirm that the Header, Navigation, Welcome section, About section, Contact section, Footer section, Upload area page, and Life Hacks page are all readable and understandable.
+- I have confirmed that the forms on my Homepage and Upload area pages are working: they require entries in every field, will only accept an email in the email field, and the submit button works.  And files can be selected for upload on the Upload page.
+- I have confirmed that the video links to youtube are working correctly: it can pause, play, and mute.
 
 ### Bugs
 
@@ -132,7 +132,7 @@ The live link to the website: https://awoyalejohn.github.io/life_hax/
 No unfixed bugs
 
 ## Deployment
-- __The website was deployed to GitHub pages. The steps take to deploy the website:__
+- The website was deployed to GitHub pages. The steps take to deploy the website:
   - In the GitHub repository, go to the settings tab
   - From the source drop-down menu, select master branch
   - Once the master branch has been selected, the page will provide a link to the completed website 
@@ -143,17 +143,17 @@ No unfixed bugs
 
 ### Content
 
-- __The code used to make the navigation bar with a drop-down menu was taken from a [W3schools tutorial.](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp)__
-- __The code used to add the circles around the welcome and about section images was taken from the [Love running tutorial project.](https://www.youtube.com/watch?v=LmlG1oqYcGU)__ 
-- __The code used to make the contact form was taken from a [W3schools tutorial.](https://www.w3schools.com/howto/howto_css_contact_form.asp)__
-- __The social media links was taken from the [Love running tutorial project](https://www.youtube.com/watch?v=x9Fhse0BrXw) and [Font Awesome.](https://fontawesome.com/)__
-- __The code used to make the upload page was taken from a [W3schools tutorial.](https://www.w3schools.com/howto/howto_html_file_upload_button.asp)__ 
-- __The code for the life hacks video clips was taken from the following 3 Youtube videos and embed to the website:__
+- The code used to make the navigation bar with a drop-down menu was taken from a [W3schools tutorial.](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp)
+- The code used to add the circles around the welcome and about section images was taken from the [Love running tutorial project.](https://www.youtube.com/watch?v=LmlG1oqYcGU)
+- The code used to make the contact form was taken from a [W3schools tutorial.](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+- The social media links was taken from the [Love running tutorial project](https://www.youtube.com/watch?v=x9Fhse0BrXw) and [Font Awesome.](https://fontawesome.com/)
+- The code used to make the upload page was taken from a [W3schools tutorial.](https://www.w3schools.com/howto/howto_html_file_upload_button.asp)
+- The code for the life hacks video clips was taken from the following 3 Youtube videos and embed to the website:
   - [Ultimate Food Hacks Compilation](https://www.youtube.com/watch?v=VWUJQqljHzI&t)
   - [27 EASY LIFE HACKS FOR YOUR HOME](https://www.youtube.com/watch?v=9R-Ll6odFw8&t)
   - [Office Hacks](https://www.youtube.com/watch?v=VlBkKbK4rok)
-- __The code for the media queries was taken from a [W3schools tutorial.](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)__
-- __Some of the code that was used to keep the footer at the bottom of the page was taken from this forum post on [Stack overflow.](https://stackoverflow.com/questions/18739937/how-to-keep-footer-at-bottom-of-screen)__ 
+- The code for the media queries was taken from a [W3schools tutorial.](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+- Some of the code that was used to keep the footer at the bottom of the page was taken from this forum post on [Stack overflow.](https://stackoverflow.com/questions/18739937/how-to-keep-footer-at-bottom-of-screen)
 
 ### Media
-- __The images below the welcome and about section were taken from [Pexels.](https://www.pexels.com/)__
+- The images below the welcome and about section were taken from [Pexels.](https://www.pexels.com/)
