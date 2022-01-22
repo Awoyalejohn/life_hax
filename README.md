@@ -111,7 +111,8 @@ The live link to the website: https://awoyalejohn.github.io/life_hax/
 
 - __Solved bugs__
 
-  - Some of the website links on github pages didn’t work at first because there were spaces and uppercase text in the link text. I fixed it by adding a hyphen and changing everything to lowercase.
+  - Some of the website links on github pages didn’t work at first because there were spaces and uppercase text file name and folders. I fixed it by adding a hyphen and changing everything to lowercase.
+  - The footer would not stay at the bottom of my website. I fixed this by adding a min height and increasing  to min-height: 70% on the pages that the footer was having problems staying at the bottom.
 
 ### Validator Testing
 - __HTML__
