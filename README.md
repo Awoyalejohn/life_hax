@@ -6,6 +6,7 @@ Users will also be able contribute their own life hacks to the website by upload
 ![Life Hax website Mockup](https://github.com/Awoyalejohn/life_hax/blob/main/assets/images/readme%20screenshots/lifehax-mock-up.png)
 
 ## Features 
+The live link to the website: https://awoyalejohn.github.io/life_hax/
 
 ### Existing Features
 
@@ -96,3 +97,44 @@ Users will also be able contribute their own life hacks to the website by upload
   - This page is important to the user as it is where they will navigate to find the interesting hacks that they are looking for.
 
 ![Life Hacks page](https://github.com/Awoyalejohn/life_hax/blob/main/assets/images/readme%20screenshots/lifehacks-page.png)
+
+## Testing
+
+ - __I tested that the website worked in a variety of browsers: Chrome, Firefox, and Opera.__
+- __I confirmed that this project is responsive, looks good and functions on all standard screen sizes using devtools device toolbar.__
+- __I confirm that the Navigation bar is working correctly with no broken links.__
+- __I confirm that the Header, Navigation, Welcome section, About section, Contact section, Footer section, Upload area page, and Life Hacks page are all readable and understandable.__
+- __I have confirmed that the forms on my Homepage and Upload area pages are working: they require entries in every field, will only accept an email in the email field, and the submit button works.  And files can be selected for upload on the Upload page.__
+- __I have confirmed that the video links to youtube are working correctly: it can pause, play, and mute.__
+
+### Bugs
+
+- __Solved bugs__
+
+  - Some of the website links on github pages didn’t work at first because there were spaces and uppercase text in the link text. I fixed it by adding a hyphen and changing everything to lowercase.
+
+### Validator Testing
+- __HTML__
+  - No errors when the Homepage was passed through the [official W3C validator.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fawoyalejohn.github.io%2FLife-Hax%2Fpages%2Flife-hax.html)
+  - No errors when the Upload page was passed through the [official W3C validator.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fawoyalejohn.github.io%2FLife-Hax%2Fpages%2Fupload.html)
+  - No errors when the Life hacks page was passed through the [official W3C validator.]( https://validator.w3.org/nu/?doc=https%3A%2F%2Fawoyalejohn.github.io%2FLife-Hax%2Fpages%2Flife-hax.html)
+- __CSS__
+  - No errors when the stylesheet was passed through the [official Jigsaw validator.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fawoyalejohn.github.io%2FLife-Hax%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- __Accessibility__
+  - I confirmed that the colours and fonts chosen are easy to read and accessible by running the Homepage, Upload page and Life Hacks page through the lighthouse devtools. The 8 shapes contrast grid was also used to test if the colour scheme that was accessible.
+  
+![Homepage accessibility test](https://github.com/Awoyalejohn/life_hax/blob/main/assets/images/readme%20screenshots/lighthouse-score-homepage-mobile.PNG)
+![Upload page accessibility test](https://github.com/Awoyalejohn/life_hax/blob/main/assets/images/readme%20screenshots/lighthouse-score-upload-page-mobile.PNG)
+![Life Hacks accessibility test](https://github.com/Awoyalejohn/life_hax/blob/main/assets/images/readme%20screenshots/lighthouse-score-lifehax-page-mobile.PNG)
+![8 Shapes colour contrast scheme](https://github.com/Awoyalejohn/life_hax/blob/main/assets/images/readme%20screenshots/colour-scheme.PNG)
+
+### Unfixed bugs
+No unfixed bugs
+
+## Deployment
+- __The website was deployed to GitHub pages. The steps take to deploy the website:__
+  - In the GitHub repository, go to the settings tab
+  - From the source drop-down menu, select master branch
+  - Once the master branch has been selected, the page will provide a link to the completed website 
+  
+  The live link to the website: https://awoyalejohn.github.io/life_hax/
