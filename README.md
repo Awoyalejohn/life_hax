@@ -111,8 +111,11 @@ The live link to the website: https://awoyalejohn.github.io/life_hax/
 
 - __Solved bugs__
 
-  - Some of the website links on github pages didn’t work at first because there were spaces and uppercase text file name and folders. I fixed it by adding a hyphen and changing everything to lowercase.
-  - The footer would not stay at the bottom of my website. I fixed this by adding a min height and increasing  to min-height: 70% on the pages that the footer was having problems staying at the bottom.
+  - Some of the website links on github pages didn’t work at first, because there were spaces and uppercase letters in the file names and folders. I fixed this by adding hyphens and lowercase letters to the file names and folders.
+  - The footer would not stay at the bottom of my website. I fixed this by adding a min height and increasing it to min-height: 70% on the pages that the footer was having problems staying at the bottom.
+  - I had an issue with the form validation where it would just submit the forms when the submit button was clicked without asking for the user to type the required text information like their name and email. I fixed this by adding a required attribute to the form code.
+  - I had slow page loading times on my homepage and a low performance score on google chrome lighthouse. I fixed this by reducing the size of all the images on the homepage using the tinypng website.
+
 
 ### Validator Testing
 - __HTML__
