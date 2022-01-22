@@ -138,3 +138,4 @@ No unfixed bugs
   - Once the master branch has been selected, the page will provide a link to the completed website 
   
   The live link to the website: https://awoyalejohn.github.io/life_hax/
+
