@@ -54,7 +54,6 @@
     background-color: #ffffff;
     font-family: 'Roboto Condensed', sans-serif;
   }
-  
 
   nav a {
     float: left; /* Navigation bar links towards the left side */
@@ -64,7 +63,6 @@
     padding: 15px 19px;
     text-decoration: none; /* Removes the underline from the hyperlinks */
   }
-    
 
   .dropdown {
     float: left; /* Positions dropdown towards the left */
@@ -156,7 +154,6 @@
     border-radius: 50%;  /* Curves image container border by 50% */
     margin: 0 auto;  /* Positions image container in the middle  */
   }
-  
 
   /* Circle image code taken from code isntitute love running 
   project. Adds an image circle for welcome area */
@@ -558,7 +555,6 @@
     height: 400px;
   }
 }
-
 
 /* Media queries for extra large screens 2400px and more */
 @media only screen and (min-width: 2400px) {
