@@ -1,18 +1,20 @@
 /* Media queries for mobile devices 320px - 480px */
 @media only screen and (min-width: 320px) {
-  /* Set all elements padding and margin to 0 */
+  /* Gives all elements the same CSS proterties  */
   * {
-    margin: 0;
+      margin: 0;
       padding: 0;
-      border: none;
-      box-sizing: border-box;
+      border: none;  /* Removes borders */
+      box-sizing: border-box;  /* Stops borders from overlapping by adapting to the padding  */
   }
   
+   /* Makes the body on each page fill to the entire page's height */
   body {
     height: 100%;
     background-color: #e6faff;
   }
   
+  /* Centers the header and has green background color  */
   header {
     padding: 22px;
     text-align: center;
@@ -33,6 +35,7 @@
     width: 2cm;
   }
   
+  /* Most important heading has white font color and roboto fotn style  */
   h1 {
     color:#ffffff;
     font-family: 'Roboto', sans-serif;
@@ -49,52 +52,54 @@
   
 
   nav a {
-    float: left; /* navigation bar links towards the left side */
+    float: left; /* Navigation bar links towards the left side */
     font-size: 16px; 
     color: #000000;
-    text-align: center; /* positions nav links in the middle*/
+    text-align: center; /* Positions nav links in the middle */
     padding: 15px 19px;
-    text-decoration: none; /* Removes the underline from the hyperlinks*/
+    text-decoration: none; /* Removes the underline from the hyperlinks */
   }
     
 
   .dropdown {
-    float: left;
-    overflow: hidden;
+    float: left; /* Positions dropdown towards the left */
+    overflow: hidden; /* Hides scroll bar */
   }
   
   .dropdown .dropbtn {
     font-size: 16px;  
-    border: none;
-    outline: none;
+    border: none; /* Removes border */
+    outline: none; /* Removes border outline*/
     color: #000000;
-    padding: 15px 31.3px;
-    background-color: inherit;
-    font-family: inherit;
+    padding: 15px 31.3px; /* The padding top and bottom is 15px and left and right is 31.3px */
+    background-color: inherit; /* Inherits the background color of parent element */
+    font-family: inherit; /* Inherits the font-family of parent element */
     margin: 0;
   }
   
+  /* Yellow background color when mouse hovers over it */
   nav a:hover, .dropdown:hover .dropbtn {
-    background-color: #ffffb3;
+    background-color: #ffffb3; 
   }
   
   .dropdown-content {
-    display: none;
-    position: absolute;
+    display: none; /* Hides the content in the dropdown menu */
+    position: absolute; /* Positions relative to nearest position ancestor */
     background-color: #ffffff;
-    min-width: 129.5px;
-    z-index: 1;
+    min-width: 129.5px; /* Minimum width the dropdown content can be */
+    z-index: 1; /* Displays dropdown content in front of everything */
   }
   
   .dropdown-content a {
-    float: none;
+    float: none; /* Dropdowm content doesnt float */
     color: black;
     padding: 5px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+    text-decoration: none; /* Removes underline from links */
+    display: block; /* Content displays below the last element */
+    text-align: left; /* Positions the text towards the left */
   }
   
+  /* Yellow background color when mouse hovers over it */
   .dropdown-content a:hover {
     background-color: #ffffb3;
   }
@@ -103,25 +108,28 @@
     display: block;
   }
   
-  /* Green bg color and keeps footer visible */
+  /* Green bg color and min-height helps footer to be visible */
   main {
     padding: 15px;
     background-color:#005b4b;
     min-height: 70%;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Stops borders from overlapping by adapting to the padding  */
   }
   
+  /* Heading with white roboto condenses font style  */
   h2, h3 {
     font-family: 'Roboto Condensed', sans-serif;
     color: #ffffff;
   }
   
+  /* Paragraphs eith white roboto slab font style  */
   p{
     font-family: 'Roboto Slab', serif;
     color: #ffffff;
     font-size: 15px;
   }
-  
+
+   /* Adjusts section image size in relaton to parent  */
   section img {
     max-width: 100%;
     height: auto;
@@ -132,7 +140,7 @@
     padding-bottom: 20px;
   }
   
-  /* Circle border taken from code isntitute love running project  */
+  /* Circle border code taken from code isntitute love running project  */
   .circle-container{
     width: 300px;
     height: 300px;
@@ -140,31 +148,31 @@
     border-style: solid;
     border-color: #ffffff;
     border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+    border-radius: 50%;  /* Curves image container border by 50% */
+    margin: 0 auto;  /* Positions image container in the middle  */
   }
   
 
-  /* Circle image style taken from code isntitute love running 
+  /* Circle image code taken from code isntitute love running 
   project. Adds an image circle for welcome area */
   #welcome-bg {
     background: url('../images/welcome.jpg') no-repeat center center;
     background-size: 400px;
     height: 260px;
     width: 260px;
-    border-radius: 50%;
+    border-radius: 50%;  /* Curves welcome image border by 50%  */
     margin-top: 3%;
     margin-left: 3%;
   }
 
-  /* Circle image taken from code isntitute love running 
+  /* Circle image code taken from code isntitute love running 
   project. Adds an image circle for about area */
   #about-bg {
     background: url('../images/about.jpeg') no-repeat center center;
     background-size: 400px;
     height: 260px;
     width: 260px;
-    border-radius: 50%;
+    border-radius: 50%;  /* Curves about image border by 50% */
     margin-top: 3%;
     margin-left: 3%;
   }
@@ -178,42 +186,42 @@
     font-family: 'Roboto Condensed', sans-serif;
   }
   
-  /* Form styling taken form w3 schools */
+  /* Form styling code taken form W3 Schools */
   input[type=text], input[type=email], select {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Stops borders from overlapping by adapting to the padding  */
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
     font-family: 'Roboto Slab', serif;
   }
   
-  /* Form styling taken form w3 schools */
+  /* Form styling code taken form W3 Schools */
   textarea {
     width: 100%;
     height: 200px;
     padding: 12px;
     border: 1px solid #ccc;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Stops borders from overlapping by adapting to the padding  */
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
+    resize: vertical; /* Allows resizin the textbox vertically  */
     font-family: 'Roboto Slab', serif;
   }
   
-  /* Form styling taken form w3 schools */
+  /* Form styling taken form W3 Schools */
   input[type=submit] {
     background-color: #ffffff;
     color: #000000;
     padding: 12px 20px;
     border: none;
-    cursor: pointer;
+    cursor: pointer; /* Mouse cursor becomes pointing hand cursor when hovering submit button  */
     font-family: 'Roboto Condensed', sans-serif;
   }
   
-  /* Form styling taken form w3 schools */
+  /* Form styling taken form W3 Schools */
   input[type=submit]:hover {
     background-color: #FFFFB3;
   }
@@ -225,15 +233,17 @@
     color: #ffffff;
   }
   
+   /* Positions socia media icons in the center of the footer */
   .social-media {
     text-align: center;
   }
   
+   /* Displays social media icons on the same line */
   .social-media > li {
     display: inline;
   }
   
-  /* font awesome buttons white color and enlarged */
+  /* Font awesome buttons white color and enlarged */
   .social-media i {
     font-size: 160%;
     margin: 1%;
@@ -241,10 +251,10 @@
     color: #ffffff;
   }
   
-  /* centered copyright info*/
+  /* Centered copyright info*/
   .copyright p {
     font-size: 10px;
-    text-align: center;
+    text-align: center; 
   }
   
   #upload-area1 {
@@ -259,6 +269,7 @@
     margin-top: 15px;
   }
   
+   /* Positions and and sets size of the youtube video iframes */
   iframe {
     height: 200px;
     width: 100%;
@@ -412,7 +423,8 @@
   .dropdown .dropbtn {
     padding: 13px 80px;
   }
-
+  
+  /* Welcome section content positions to the left */
   .welcome-section {
     float: left; 
     width: 50%;
@@ -430,6 +442,7 @@
     padding-bottom: 5%;
   }
 
+  /* About section content postions to the right */
   .about-section {
     float: right;
     width: 50%; 
