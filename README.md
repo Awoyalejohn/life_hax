@@ -1,12 +1,12 @@
-# Life-Hax
+# Life Hax
 Life Hax is a website whose goal is to give people access to various life hacks that are easy to learn and perform.
 The website benefits people who are looking for new and interesting ways to accomplish tasks that they may not have known about.
 Users will also be able contribute their own life hacks to the website by uploading.
+The live link to the website: https://awoyalejohn.github.io/life_hax/
 
 ![Life Hax website Mockup](https://github.com/Awoyalejohn/life_hax/blob/main/assets/images/readme%20screenshots/lifehax-mock-up.png)
 
 ## Features 
-The live link to the website: https://awoyalejohn.github.io/life_hax/
 
 ### Existing Features
 
