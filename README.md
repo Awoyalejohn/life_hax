@@ -120,11 +120,11 @@ The live link to the website: https://awoyalejohn.github.io/life_hax/
 
 ### Validator Testing
 - __HTML__
-  - No errors when the Homepage was passed through the [official W3C validator.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fawoyalejohn.github.io%2FLife-Hax%2Fpages%2Flife-hax.html)
-  - No errors when the Upload page was passed through the [official W3C validator.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fawoyalejohn.github.io%2FLife-Hax%2Fpages%2Fupload.html)
-  - No errors when the Life hacks page was passed through the [official W3C validator.]( https://validator.w3.org/nu/?doc=https%3A%2F%2Fawoyalejohn.github.io%2FLife-Hax%2Fpages%2Flife-hax.html)
+  - No errors when the Homepage was passed through the [official W3C validator.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fawoyalejohn.github.io%2Flife_hax%2F)
+  - No errors when the Upload page was passed through the [official W3C validator.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fawoyalejohn.github.io%2Flife_hax%2Fassets%2Fpages%2Fupload.html)
+  - No errors when the Life hacks page was passed through the [official W3C validator.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fawoyalejohn.github.io%2Flife_hax%2Fassets%2Fpages%2Flife-hax.html)
 - __CSS__
-  - No errors when the stylesheet was passed through the [official Jigsaw validator.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fawoyalejohn.github.io%2FLife-Hax%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors when the stylesheet was passed through the [official Jigsaw validator.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fawoyalejohn.github.io%2Flife_hax%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - __Accessibility__
   - I confirmed that the colours and fonts chosen are easy to read and accessible by running the Homepage, Upload page and Life Hacks page through the lighthouse devtools. The 8 shapes contrast grid was also used to test if the colour scheme that was accessible.
   
