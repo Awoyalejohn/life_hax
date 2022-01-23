@@ -7,6 +7,11 @@
       border: none;  /* Removes borders */
       box-sizing: border-box;  /* Stops borders from overlapping by adapting to the padding  */
   }
+
+  html {
+    height: 100%;
+    background-color: #e6faff;
+  }
   
    /* Makes the body on each page fill to the entire page's height */
   body {
@@ -284,7 +289,6 @@
   #office_hacks{
     margin-top: 20px;
   }
-
 }
 
 /* Media queries for ipads and tablets 481px - 768px */
